@@ -1,0 +1,67 @@
+cd
+apt upgrade& apt upgrade
+cd
+apt install bzip
+apt install bzip2
+cd
+cat $HOME/.ssh/*.pub
+cd repogit
+git clone git@github.com:ahustin/TP_AySO.git
+apt install git
+git clone git@github.com:ahustin/TP_AySO.git
+cd TP_AySO/
+ls -l
+cat /etc/os-release
+man grep
+grep -i "home_url" /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git config --global user.email "martinezagustinf9@gmail.com"
+git config --global user.name "ahustin"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git  push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git commit -m "feat: Aniadiendo informacion de CPU"
+git add .
+git commit -m "feat: Aniadiendo informacion de CPU"
+cat <<EOF >> README.md
+Alumno: Guille
+División: 315 Turno: Noche
+EOF
+
+git status
+git checkout -- readme.md
+git checkout -- README.md
+git status
+cat <<EOF >> README.md
+Alumno: Agustin Martinez División: 315 Turno: Noche
+EOF
+
+cat <<EOF >> README.md
+Alumno: Agustin Martinez División: 315 Turno: Noche
+
+
+
+cat <<EOF >> README.md
+Alumno: Agustin Martinez
+division: 315
+
+cat <<EOF >> README.md
+Alumno: Agustin Martinez
+Division: 315
+Turno: Noche
+eof
+
+cat <<EOF >> README.md
+Alumno: Agustin Martinez
+Division: 315
+Turno: Noche
+EOF
+
+git add README.md datos_usuari0.txt
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
