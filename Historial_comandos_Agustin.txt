@@ -65,3 +65,12 @@ git add README.md datos_usuario.txt
 git commit -m "ADD: Añadiendo Readme y datos de usuario"
 git push
 history -a
+cp ~/.bash_history Historial_comandos_Agustin.txt
+git add Historial_comandos_Agustin.txt  
+git commit -m "ADD: Historial de comandos de agus"
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add .
+git commit -m "Feat: Aniadiendo informacion de CPU"
+git push
+history -a 
